@@ -1,0 +1,52 @@
+; Adwaita
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Adwaita - Normal Select.cur
+Adwaita - Help Select.cur
+Adwaita - Working In Background.ani
+Adwaita - Busy.ani
+Adwaita - Text Select.cur
+Adwaita - Unavailable.cur
+Adwaita - Vertical Resize.cur
+Adwaita - Horizontal Resize.cur
+Adwaita - Diagonal Resize 1.cur
+Adwaita - Diagonal Resize 2.cur
+Adwaita - Move.cur
+Adwaita - Link Select.cur
+Adwaita - Precision Select.cur
+Adwaita - Handwriting.cur
+Adwaita - Alternate Select.cur
+[Strings]
+CUR_DIR       = "Cursors\Adwaita"
+SCHEME_NAME   = "Adwaita"
+pointer       = "Adwaita - Normal Select.cur"
+help          = "Adwaita - Help Select.cur"
+work          = "Adwaita - Working In Background.ani"
+busy          = "Adwaita - Busy.ani"
+text          = "Adwaita - Text Select.cur"
+unavailiable  = "Adwaita - Unavailable.cur"
+vert          = "Adwaita - Horizontal Resize.cur"
+horz          = "Adwaita - Vertical Resize.cur"
+dgn1          = "Adwaita - Diagonal Resize 1.cur"
+dgn2          = "Adwaita - Diagonal Resize 2.cur"
+move          = "Adwaita - Move.cur"
+link          = "Adwaita - Link Select.cur"
+cross         = "Adwaita - Precision Select.cur"
+hand          = "Adwaita - Handwriting.cur"
+alternate     = "Adwaita - Alternate Select.cur"
